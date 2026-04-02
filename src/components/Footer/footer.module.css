@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.footer{
+  color: snow;
+  padding: 16px;
+}
+
+.footer p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  text-align: center;
+}

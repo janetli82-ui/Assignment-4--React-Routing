@@ -1,0 +1,44 @@
+.gallery{
+  margin: 100px auto;
+  overflow: hidden;
+  width: 1180px;
+}
+
+.gallery:hover .scroll{
+  animation-play-state: paused;
+}
+
+.scroll{
+  display: flex;
+  animation:  move 30s linear infinite;
+}
+
+.scroll .collection{
+  display: grid;
+  grid-template-columns: repeat(6, 180px);
+  grid-template-rows: repeat(4, 90px);
+  gap: 16px 20px;
+  margin-right: 20px;
+}
+
+.scroll img {
+  border-radius: 6px;
+  height: 90px;
+  width: 180px;
+}
+
+@keyframes move {
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(-1200px);
+  }
+}
+
+@media (max-width:768px) {
+  .gallery{
+    max-width: 1180px;
+    width: 100%;
+  }
+}

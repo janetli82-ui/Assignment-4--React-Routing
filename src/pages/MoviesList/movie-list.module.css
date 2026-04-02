@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.details{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  margin: 20px auto;
+  max-width: 700px;
+  padding: 24px;
+}
+
+.more span{
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.movie_name{
+  font-size: 2rem;
+}
+
+.poster{
+  height: auto;
+  margin-bottom: -11px;
+  width: 200px;
+}
+
+.button{
+  background: transparent;
+  border: 2px solid #3d3d3b;
+  border-radius: 0;
+  color:#ecec7d;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 500;
+  letter-spacing: 2px;  
+  margin-left: 10px;
+  padding: 5px 9px;
+  text-transform: uppercase;
+  transition: all 0.4s ease;
+}
+
+@media (max-width:768px) {
+  .more{
+   margin-left: 15px;
+  }
+}
