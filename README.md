@@ -1,39 +1,40 @@
 ## Project main instruction
 
+```
 KungFu/
 ├── node_modules/
 ├── public/
-│   └── images/
-├── src/
-│   ├── assets/
-│   │   └── images/
-│   ├── components/
-│   │   ├── Footer/
-│   │   ├── Header/
-│   │   ├── Layout/
-│   │   ├── MovieCard/
-│   │   ├── Navigation/
-│   │   └── StarCard/
-│   ├── data/
-│   │   └── data.js
-│   ├── hook/
-│   │   ├── useOmdbFetch.js
-│   │   └── useWikiFetch.js
-│   ├── pages/
-│   │   ├── About/
-│   │   ├── Gallery/
-│   │   ├── Home/
-│   │   ├── Movies/
-│   │   ├── MoviesList/
-│   │   ├── Stars/
-│   │   └── StarList/
-│   └── utils/
-│       └── function.js
-├── main.jsx
-├── index.css
-├── package.json
-└── App.jsx
-  
+├── images/
+└── src/
+    ├── assets/
+    │   └── images/
+    ├── components/
+    │   ├── Footer/
+    │   ├── Header/
+    │   ├── Layout/
+    │   ├── MovieCard/
+    │   ├── Navigation/
+    │   └── StarCard/
+    ├── data/
+    │   └── data.js
+    ├── hook/
+    │   ├── useOmdbFetch.js
+    │   └── useWikiFetch.js
+    ├── pages/
+    │   ├── About/
+    │   ├── Gallery/
+    │   ├── Home/
+    │   ├── Movies/
+    │   ├── MoviesList/
+    │   ├── Stars/
+    │   └── StarList/
+    ├── utils/
+    │   └── function.js
+    ├── main.jsx
+    ├── index.css
+    ├── App.jsx
+    └── package.json
+```
 
 # React + Vite
 
