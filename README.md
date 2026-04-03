@@ -4,7 +4,7 @@ The following outlines the step-by-step process for completing this website proj
 ```
 KungFu/
 ├── 1. Requirement Analysis
-│   ├── Review assignment instructions and define topic(Chines KungFu stars)
+│   ├── Review assignment instructions and define topic(Chinese KungFu stars)
 │   └── Define website pages (Home / Stars / Movies / Gallery / About)
 ├── 2. Design
 │   ├── Plan page structure (Header / Footer / Navigation / mainContainer)
