@@ -4,11 +4,10 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import styles from "./home.module.css";
 import { useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const [showSwiper, setShowSwiper] = useState(false);
-  const {name}= useParams()
   const handleClick = () => {
     setShowSwiper(!showSwiper);
   };

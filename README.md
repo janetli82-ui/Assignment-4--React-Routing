@@ -1,39 +1,30 @@
-## Project main instruction
+# Project plan
 
+The following outlines the step-by-step process for completing this website project:
 ```
 KungFu/
-├── node_modules/
-├── public/
-├── images/
-└── src/
-    ├── assets/
-    │   └── images/
-    ├── components/
-    │   ├── Footer/
-    │   ├── Header/
-    │   ├── Layout/
-    │   ├── MovieCard/
-    │   ├── Navigation/
-    │   └── StarCard/
-    ├── data/
-    │   └── data.js
-    ├── hook/
-    │   ├── useOmdbFetch.js
-    │   └── useWikiFetch.js
-    ├── pages/
-    │   ├── About/
-    │   ├── Gallery/
-    │   ├── Home/
-    │   ├── Movies/
-    │   ├── MoviesList/
-    │   ├── Stars/
-    │   └── StarList/
-    ├── utils/
-    │   └── function.js
-    ├── main.jsx
-    ├── index.css
-    ├── App.jsx
-    └── package.json
+├── 1. Requirement Analysis
+│   ├── Review assignment instructions and define topic(Chines KungFu stars)
+│   └── Define website pages (Home / Stars / Movies / Gallery / About)
+├── 2. Design
+│   ├── Plan page structure (Header / Footer / Navigation / mainContainer)
+│   └── Create UI mockups (sketches)
+├── 3. Development
+│   ├── Initialize project (React / Vite)
+│   ├── Build components (Header / Navigation / Footer / Layout / MovieCard / StarCard)
+│   ├── Develop pages (Home / Stars / Movies / Gallery / About)
+│   │   └── Sub pages (StarsList / MoviesList)
+│   ├── Build env
+│   └── Fetch data (useOmdbFetch / useWikiFetch / dataFile)
+├── 4. Testing & Optimization
+│   ├── Fix bugs
+│   ├── Improve styling
+│   └── Ensure responsive design
+└── 5. Deployment & Submission
+    ├── Build the project and push to Github
+    ├── Deploy (Vercel)
+    └── Complete README
+
 ```
   
 
