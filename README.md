@@ -1,34 +1,33 @@
 ## Project main instruction
-
 KungFu/
 ├── node_modules/
 ├── public/
-│   └── images/
+│ └── images/
 ├── src/
-│   ├── assets/
-│   │   └── images/
-│   ├── components/
-│   │   ├── Footer/
-│   │   ├── Header/
-│   │   ├── Layout/
-│   │   ├── MovieCard/
-│   │   ├── Navigation/
-│   │   └── StarCard/
-│   ├── data/
-│   │   └── data.js
-│   ├── hook/
-│   │   ├── useOmdbFetch.js
-│   │   └── useWikiFetch.js
-│   ├── pages/
-│   │   ├── About/
-│   │   ├── Gallery/
-│   │   ├── Home/
-│   │   ├── Movies/
-│   │   ├── MoviesList/
-│   │   ├── Stars/
-│   │   └── StarList/
-│   └── utils/
-│       └── function.js
+│ ├── assets/
+│ │ └── images/
+│ ├── components/
+│ │ ├── Footer/
+│ │ ├── Header/
+│ │ ├── Layout/
+│ │ ├── MovieCard/
+│ │ ├── Navigation/
+│ │ └── StarCard/
+│ ├── data/
+│ │ └── data.js
+│ ├── hook/
+│ │ ├── useOmdbFetch.js
+│ │ └── useWikiFetch.js
+│ ├── pages/
+│ │ ├── About/
+│ │ ├── Gallery/
+│ │ ├── Home/
+│ │ ├── Movies/
+│ │ ├── MoviesList/
+│ │ ├── Stars/
+│ │ └── StarList/
+│ └── utils/
+│ └── function.js
 ├── main.jsx
 ├── index.css
 ├── package.json
