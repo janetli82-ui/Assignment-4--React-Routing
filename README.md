@@ -1,4 +1,4 @@
-#Project main instruction
+##Project main instruction
 
 KungFu/
 ├── node_modules/
