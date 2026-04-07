@@ -43,7 +43,6 @@ const Home = () => {
               <img src="./images/lee.jpg" alt="Bruce Lee" />
             </Link>
           </SwiperSlide>
-
           <SwiperSlide>
             <Link to="/stars/Jackie Chan" className={styles.item_a}>
               <img src="./images/chan.jpg" alt="Jackie Chan" />

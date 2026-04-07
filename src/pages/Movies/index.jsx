@@ -3,9 +3,9 @@ import styles from "./movies.module.css"
 
 const Movies = () => {
   return(
-    <>
+    <div className={styles.container}>
       <MovieCard />
-    </>
+    </div>
   )
 }
 
