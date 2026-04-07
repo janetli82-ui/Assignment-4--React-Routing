@@ -14,7 +14,7 @@ const StarList = () => {
           <p>{stars.extract}</p>
           <button
             onClick={() => {
-              navigate(-1);
+              navigate("/stars");
             }}
             className={styles.button}
           >

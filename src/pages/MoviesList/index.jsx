@@ -14,7 +14,7 @@ const MoviesList = () => {
         <div className={styles.more}>
            <h2 className={styles.movie_name}>{omdbData.Title}</h2>
            <img src={omdbData.Poster} className={styles.poster} />
-           <button onClick={()=>{navigate(-1)}} className={styles.button}>Back</button>
+           <button onClick={()=>{navigate("/movies")}} className={styles.button}>Back</button>
            <p className={styles.genre}><span>Genre:</span> {omdbData.Genre}</p>
            <p className={styles.actor}><span>Actors:</span> {omdbData.Actors}</p>
            <p className={styles.rank}><span>ImdbRating:</span> {omdbData.imdbRating}</p>
